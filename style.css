@@ -10,6 +10,7 @@ html {
 
 body {
     background: #0f0211;
+    overflow-x: hidden;
 }
 
 header {
@@ -228,6 +229,11 @@ h6 {
     font-size: 11px;
 }
 
+.p4 {
+    margin: 16px 0 16px 0;
+    font-size: 11px;
+}
+
 .p2 {
     margin: 16px 0 16px 0;
     font-size: 11px;
@@ -409,8 +415,7 @@ p {
 }
 
 .logos {
-    /* width: 90vw; */
-    height: 70px;
+    height: 90px;
     border-radius: 10px;
     background-color: rgb(43, 43, 43);
     margin: 0 60px 0 60px;
@@ -418,6 +423,16 @@ p {
     justify-content: space-around;
     align-items: center;
     color: gray;
+}
+
+.bx-dna {
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+.bx-network-chart {
+    margin-left: 28px;
+    margin-top: 5px;
 }
 
 .heading {
@@ -594,7 +609,7 @@ h5 {
     }
 
     .text1 {
-        width: 100vw;
+        /* width: 100vw; */
         margin: 0px;
         color: white;
         font-size: 8px;
@@ -611,6 +626,10 @@ h5 {
 
     h4 {
         font-size: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
     }
 
     .shape {
@@ -682,13 +701,39 @@ h5 {
         margin: 20px;
     }
 
+    .p4 {
+        /* margin: 50px; */
+        font-size: 10px;
+    }
+
     .head {
         margin-left: 80px;
         color: white;
     }
 
+    .logos {
+        height: 90px;
+        border-radius: 10px;
+        background-color: rgb(43, 43, 43);
+        /* margin: 0 60px 0 60px; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: gray;
+    }
+
+    .bx-dna {
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+
+    .bx-network-chart {
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+
     .button1 {
-        margin-left: 20px;
+        margin-left: 25px;
     }
 
     .shape1 {
@@ -776,7 +821,7 @@ h5 {
     }
 
     .heading {
-        margin: 100px 0 30px 60px;
+        margin: 100px 0 30px 40px;
         color: white;
     }
 
