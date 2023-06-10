@@ -567,6 +567,11 @@ h5 {
 
 @media only screen and (max-width: 900px) {
 
+    body {
+        background: #0f0211;
+        overflow-x: hidden !important;
+    }
+
     .navbar .links,
     .navbar .action_btn {
         display: none;
